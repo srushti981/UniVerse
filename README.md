@@ -1,21 +1,63 @@
-# React + TypeScript + Vite + shadcn/ui
+# UniVerse 🌍
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+UniVerse is a full-stack campus community platform where students can connect, discover events, access study resources, and collaborate with their peers.
 
-## Adding components
+## ✨ Features
 
-To add components to your app, run the following command:
+- User Authentication
+- Community Feed
+- Campus Events
+- Study Resources
+- Responsive UI
+- Modern React + TypeScript frontend
+- REST API backend with MongoDB
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+
+### Deployment
+- Frontend: Vercel
+- Backend: Render
+
+## 🌐 Live Demo
+
+Frontend: https://uni-verse-4xv7w9tau-srushti-s-projects4.vercel.app
+Backend API: https://universe-jflg.onrender.com
+
+## 📂 Repository
+
+Clone the repository:
 
 ```bash
-npx shadcn@latest add button
+git clone https://github.com/srushti981/UniVerse.git
 ```
 
-This will place the ui components in the `src/components` directory.
+Install dependencies:
 
-## Using components
+```bash
+npm install
+```
 
-To use the components in your app, import them as follows:
+Run the frontend:
 
-```tsx
-import { Button } from "@/components/ui/button"
+```bash
+npm run dev
+```
+
+Run the backend:
+
+```bash
+cd backend
+npm install
+npm start
 ```
